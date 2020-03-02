@@ -18,7 +18,7 @@ earned his Doctor's Degree in the Institute of Mathematics of Jilin University a
 interests mainly include geometry/image processing, robotics, bioinfomatics and applied machine       
 learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
-+ <font color="#0000ff"> A geometric characterization of DNA sequence.</font>  
++ $\color{Blue} A geometric characterization of DNA sequence.$  
   **Wenyong Gong**, Xu-Qian, Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
 + <font color="#0000ff"> Human experience–inspired path planning for robots.</font>  
