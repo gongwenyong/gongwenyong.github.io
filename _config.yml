@@ -1,82 +1,306 @@
-# Hexo配置
-## 文档: https://hexo.io/docs/configuration.html
-## 源码: https://github.com/hexojs/hexo/
-## hexo版本：hexo-cli: 1.1.0
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# 网站
-title: Hexo # 网站标题
-subtitle: # 网站副标题
-description: # 网站描述(SEO)
-author: John Doe # 您的名字
-language: # 网站使用的语言
-timezone: # 网站时区
+# Site Settings
+locale                   : "en-US"
+title                    : "Lantao Yu"
+title_separator          : "-"
+name                     : &name "Lantao Yu"
+description              : &description "Ph.D. student, Computer Science Department, Stanford University"
+url                      : https://lantaoyu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "LantaoYu/lantaoyu.github.io"
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path                   : # blank (default) uses feed.xml
 
-# 网址
-## 如果你的网站放在子目录中，请将url设置为为'http://yoursite.com/child'，将根目录root设置为'/child/'
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com # 网址
-root: / # 网站根目录
-permalink: :year/:month/:day/:title/ # 文章的永久链接
-permalink_defaults: # 永久链接中各部分的默认值
+# SEO Related
+google_site_verification : 
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
-# 目录
-source_dir: source # 资源文件夹，这个文件夹用来存放内容。
-public_dir: public # 公共文件夹，这个文件夹用于存放生成的站点文件。
-tag_dir: tags # 标签文件夹
-archive_dir: archives # 归档文件夹
-category_dir: categories # 分类文件夹
-code_dir: downloads/code # include code文件夹
-i18n_dir: :lang # 国际化（i18n）文件夹
-skip_render: # 跳过指定文件的渲染，您可使用 glob 表达式来匹配路径。
+# Social Sharing
+twitter:
+  username               : 
+facebook:
+  username               : 
+  app_id                 :
+  publisher              :
+og_image                 :  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
-# 文章
-new_post_name: :title.md # 新文章的文件名称
-default_layout: post # 预设布局
-titlecase: false # 将标题转换为title case
-external_link: true # 在新标签中打开外部链接
-filename_case: 0 # 把文件名称转换为 (1) 小写或 (2) 大写
-render_drafts: false # 显示草稿
-post_asset_folder: false # 启动asset文件夹
-relative_link: false # 把链接改为与根目录的相对位址
-future: true # 显示未来的文章
-highlight: # 代码块的设置
-  enable: true # 启动设置
-  line_number: true # 行号
-  auto_detect: false # 自动检测
-  tab_replace: # tab替换
-  
-# 主页设置
-# path: Root path for your blogs index page. (默认 = '')
-# per_page: Posts displayed per page. (0 = 关闭分页功能)
-# order_by: Posts order. (默认情况下按日期降序排序)
-index_generator: # 索引生成
-  path: '' # 路径
-  per_page: 10 # 每页展示文章数
-  order_by: -date # 排序依据
-  
-# 分类 & 标签
-default_category: uncategorized # 默认分类
-category_map: # 分类别名
-tag_map: # 标签别名     
 
-# 日期 / 时间格式
-## Hexo使用Moment.js来解析和显示日期
-## 您可以按下面的文档描述自定义日期格式
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD # 日期格式
-time_format: HH:mm:ss # 时间格式
+# Analytics
+analytics:
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : 
 
-# 分页 & 标签
-## 将per_page设置为0可禁用分页
-per_page: 10 # 每页显示的文章量 (0 = 关闭分页功能)
-pagination_dir: page # 分页目录
 
-# 拓展
-## 插件：https://hexo.io/plugins/ #
-## 主题：https://hexo.io/themes/
-theme: landscape # 当前主题名称。值为false时禁用主题
+# Site Author
+author:
+  name             : "Lantao Yu"
+  avatar           : "lantaoyu.jpg"
+  bio              : "Ph.D. student, Computer Science Department, Stanford University"
+  location         : "Stanford, California"
+  employer         : 
+  googlescholar    : "https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en"
+  email            : "lantaoyu@cs.stanford.edu"
+  uri              : 
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : 
+  foursquare       :
+  github           : "LantaoYu"
+  google_plus      :
+  keybase          :
+  instagram        : 
+  lastfm           :
+  linkedin         :
+  orcid            : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        : 
 
-# 部署
-## 文档: https://hexo.io/docs/deployment.html
-deploy: # 部署部分的设置
-  type: # 网站类型
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+      
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+gems:
+  - jekyll-paginate
+  # - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  # - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+theme: jekyll-theme-merlot
