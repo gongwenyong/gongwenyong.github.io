@@ -1,12 +1,12 @@
 <table border="0">
   <tr>
     <td width="15%">
-      <img src="/gongwenyong.jpg" width="70%">      
+      <img src="/caption.jpg" width="100%">      
     </td>
     <td width="70%">
       <h1>Wenyong Gong</h1>
       <p><b>Department of Mathematics, Jinan University, Guangzhou, China</b></p>
-      <p><b>Email：myfullname dot jnu dot edu dot cn</b></p>
+      <p><b>Email：myfullname [at] jnu.edu.cn</b></p>
       <p><b>Research Interests：Geometry/Image Processing, Robotics, Bioinfomatics, Applied Machine Learning</b></p>
     </td>
   </tr>
