@@ -39,7 +39,7 @@ learning. His aim is to learn the geometry structure of 2D/3D data to guide real
 + Variational discrete developable surface interpolation.    
   **Wen-yong Gong**, Yong-jin Liu, Kai Tang, and Tie-ru Wu.   
   ASME Journal of Computing and Information Science in Engineering, Feb., 2014, 14(2).
-+ Sketch-to-Design: Context-Based Part Assembly.</font>
++ Sketch-to-Design: Context-Based Part Assembly.    
   Xiaohua Xie, Kai Xu, Niloy Mitra, Cohen-Or, Daniel, **Wenyong Gong**, Qi Su, Baoquan Chen.   
   Computer Graphics Forum (CGF). 2013, 32 (8), pp.233-245.  
 + Industrial Design using Interpolatory Discrete Developable Surfaces.   
