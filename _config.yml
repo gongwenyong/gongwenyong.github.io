@@ -1,0 +1,8 @@
+title: Wenyong Gong
+description: Computer Graphics,  Image Understanding
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
