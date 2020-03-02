@@ -1,4 +1,4 @@
-<table border="0">
+<table border="1">
   <tr>
     <td width="25%">
       <img src="/gongwenyong.jpg" width="50%">      
