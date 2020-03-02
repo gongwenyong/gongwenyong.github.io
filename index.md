@@ -17,6 +17,12 @@ Gong Wenyong (龚文勇) is now a lecturer in the School of Information College 
 He earned his Doctor's Degree in the Institute of Mathematics of Jilin University at 2014. His research    
 interests mainly include geometry/image processing, robotics, bioinfomatics and applied machine learning.    
 His aim is to learn the geometry structure of 2D/3D data to guide real applications.
-# 承担项目
 # Publications
++ A geometric characterization of DNA sequence. 
+  Wenyong Gong, Xu-Qian, Fan.   
+  Physica A: Statistical Mechanics and its Applications, 2019.  
++ Human experience–inspired path planning for robots.  
+  Wenyong Gong, Xiaohua Xie, Yong-Jin Liu.   
+  International Journal of Advanced Robotic Systems, 2018, DOI: 10.1177/1729881418757046.  
+# 承担项目
 # 专利
