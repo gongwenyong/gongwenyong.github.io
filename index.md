@@ -18,7 +18,7 @@ He earned his Doctor's Degree in the Institute of Mathematics of Jilin Universit
 interests mainly include geometry/image processing, robotics, bioinfomatics and applied machine learning.    
 His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
-+ A geometric characterization of DNA sequence. 
++ A geometric characterization of DNA sequence.   
   **Wenyong Gong**, Xu-Qian, Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
 + Human experience–inspired path planning for robots.  
@@ -27,6 +27,9 @@ His aim is to learn the geometry structure of 2D/3D data to guide real applicati
 + Intrinsic Image Sequence Decomposition Using Low-Rank Sparse Model.  
   **Wenyong Gong**, Weihong Xu, Leqin Wu, Xiaohua Xie, Zhanglin Cheng.   
   IEEE Access 7, 4024-4030, 2018.
++ Angle-Preserving Quadrilateral Mesh Parameterization.   
+  **Wenyong Gong**, Xiaohua Xie, Rui Ma, Tie-ru Wu.   
+  IEEE Computer Graphics and Applications (CGA), 2015, vol.35 pp.51-59.
 + Recovering Intrinsic Images From Image Sequences Using Total Variation Models.   
   Xiaohua Xie, **Wenyong Gong**, Minglun Gong, Tieru Wu.   
   International Conference on Image Processing (ICIP), 2015.  
