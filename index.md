@@ -13,14 +13,17 @@
 </table>
 
 # BioCV
-Gong Wenyong (龚文勇) is now a lecturer in the School of Information College at Jinan University. He        
-earned his Doctor's Degree in the Institute of Mathematics of Jilin University at 2014. His research    
-interests mainly include geometry/image processing, robotics, bioinfomatics and applied machine       
-learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
+Gong Wenyong (龚文勇) is now a lecturer in the College of Information Science and Technology/Colledge of 
+Cyber Security at Jinan University. He earned his Doctor's Degree in the Institute of Mathematics of Jilin 
+University at 2014. His research interests mainly include geometry/image processing, robotics, bioinfomatics 
+and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
 + A geometric characterization of DNA sequence.  
   **Wenyong Gong**, Xu-Qian, Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
++ Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation.
+  **Wenyong Gong**, Ran Yi, Yong-Jin Liu, Ying He.
+  Communications in Information and Systems 3 (2019).
 + Human experience–inspired path planning for robots.  
   **Wenyong Gong**, Xiaohua Xie, Yong-Jin Liu.   
   International Journal of Advanced Robotic Systems, 2018, DOI: 10.1177/1729881418757046. 
