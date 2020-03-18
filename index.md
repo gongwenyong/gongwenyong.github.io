@@ -22,7 +22,7 @@ and applied machine learning. His aim is to learn the geometry structure of 2D/3
   **Wenyong Gong**, Xu-Qian, Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
 + Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation.  
-  **Wenyong Gong**, Ran Yi, Yong-Jin Liu, Ying He.
+  **Wenyong Gong**, Ran Yi, Yong-Jin Liu, Ying He.  
   Communications in Information and Systems 3 (2019).
 + Human experience–inspired path planning for robots.  
   **Wenyong Gong**, Xiaohua Xie, Yong-Jin Liu.   
