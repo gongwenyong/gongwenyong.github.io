@@ -18,7 +18,18 @@ Cyber Security at Jinan University. He earned his Doctor's Degree in the Institu
 University at 2014. His research interests mainly include geometry/image processing, robotics, bioinfomatics 
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
-![avatar](caption.jpg)+ A geometric characterization of DNA sequence.  
+  <tr>
+    <td width="15%">
+      <img src="/caption.jpg" width="100%">      
+    </td>
+    <td width="70%">
+      <h1>Wenyong Gong</h1>
+      <p><b>Department of Mathematics, Jinan University, Guangzhou, China</b></p>
+      <p><b>Email：myfullname [at] jnu.edu.cn</b></p>
+      <p><b>Research Interests：Geometry/Image Processing, Robotics, Bioinfomatics, Applied Machine Learning</b></p>
+    </td>
+  </tr>
++ A geometric characterization of DNA sequence.  
   **Wenyong Gong**, Xu-Qian Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
 + Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation.  
