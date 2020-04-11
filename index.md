@@ -18,7 +18,7 @@ Cyber Security at Jinan University. He earned his Doctor's Degree in the Institu
 University at 2014. His research interests mainly include geometry/image processing, robotics, bioinfomatics 
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
-<table border="1">
+<table border:none>
   <tr>
     <td width="15%">
       <img src="/caption.jpg" width="100%">      
