@@ -18,7 +18,7 @@ Cyber Security at Jinan University. He earned his Doctor's Degree in the Institu
 University at 2014. His research interests mainly include geometry/image processing, robotics, bioinfomatics 
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
-+ A geometric characterization of DNA sequence.  
+![avatar](caption.jpg)+ A geometric characterization of DNA sequence.  
   **Wenyong Gong**, Xu-Qian Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
 + Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation.  
