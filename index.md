@@ -19,7 +19,7 @@ University at 2014. His research interests mainly include geometry/image process
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
 + A geometric characterization of DNA sequence.  
-  **Wenyong Gong**, Xu-Qian, Fan.   
+  **Wenyong Gong**, Xu-Qian Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
 + Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation.  
   **Wenyong Gong**, Ran Yi, Yong-Jin Liu, Ying He.  
