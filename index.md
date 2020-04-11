@@ -18,16 +18,15 @@ Cyber Security at Jinan University. He earned his Doctor's Degree in the Institu
 University at 2014. His research interests mainly include geometry/image processing, robotics, bioinfomatics 
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
-<table border="0">
+<table border="1">
   <tr>
     <td width="15%">
       <img src="/caption.jpg" width="100%">      
     </td>
     <td width="70%">
-      <h1>Wenyong Gong</h1>
       <p>A geometric characterization of DNA sequence.</p>
       <p><b>Wenyong Gong</b>, Xu-Qian Fan. </p>
-      <p>Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation. </p>
+      <p>Physica A: Statistical Mechanics and its Applications, 2019.  </p>
     </td>
   </tr>
 </table>
