@@ -19,11 +19,10 @@ University at 2014. His research interests mainly include geometry/image process
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
 # Publications
   <tr>
-    <td width="15%">
+    <td width="5%">
       <img src="/caption.jpg" width="100%">      
     </td>
     <td width="70%">
-      <h1>Wenyong Gong</h1>
       <p><b>A geometric characterization of DNA sequence.</b></p>
       <p><b>**Wenyong Gong**, Xu-Qian Fan.</b></p>
       <p><b>Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation. </b></p>
