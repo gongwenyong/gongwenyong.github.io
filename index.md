@@ -13,7 +13,7 @@
 </table>
 
 # BioCV
-Gong Wenyong (龚文勇) is now a lecturer in the College of Information Science and Technology/Colledge of 
+Gong Wenyong (龚文勇) is now a lecturer in the College of Information Science and Technology/College of 
 Cyber Security at Jinan University. He earned his Doctor's Degree in the Institute of Mathematics of Jilin 
 University at 2014. His research interests mainly include geometry/image processing, robotics, bioinfomatics 
 and applied machine learning. His aim is to learn the geometry structure of 2D/3D data to guide real applications.
