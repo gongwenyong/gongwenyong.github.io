@@ -21,9 +21,6 @@ and applied machine learning. His aim is to learn the geometry structure of 2D/3
 + A geometric characterization of DNA sequence.  
   **Wenyong Gong**, Xu-Qian Fan.   
   Physica A: Statistical Mechanics and its Applications, 2019.  
-+ Constructing delaunay mesh with lower energy than intrinsic delaunay triangulation.  
-  **Wenyong Gong**, Ran Yi, Yong-Jin Liu, Ying He.  
-  Communications in Information and Systems 3 (2019).
 + Human experience–inspired path planning for robots.  
   **Wenyong Gong**, Xiaohua Xie, Yong-Jin Liu.   
   International Journal of Advanced Robotic Systems, 2018, DOI: 10.1177/1729881418757046. 
@@ -49,5 +46,4 @@ and applied machine learning. His aim is to learn the geometry structure of 2D/3
   Yong-Jin Liu, Kai Tang, **Wen-Yong Gong**, Tie-Ru Wu.   
   Computer-Aided Design (CAD), 2011, Vol.43, No.9, pp.1089-1098.
 
-# 承担项目
-# 专利
+
